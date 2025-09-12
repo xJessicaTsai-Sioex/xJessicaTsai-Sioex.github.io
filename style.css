@@ -29,4 +29,9 @@ ul li a {
 ul li a:hover {
   background-color: #6172ca;
 }
+
+div {
+  height: 200px;
+  width: 50%;
+ }
 h1
