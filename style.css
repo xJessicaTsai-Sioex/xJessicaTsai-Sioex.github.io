@@ -4,6 +4,7 @@ body {
     margin: 0pt;
     padding-bottom: 10pt;
     width: 100%;
+    background-image: url("kleurmodel.jpg");
 }
 ul {
     list-style-type: none;
