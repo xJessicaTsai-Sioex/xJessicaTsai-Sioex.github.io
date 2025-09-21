@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(200, 225, 254);
+    background-color: #c8e1fe;
     color:black;
     margin: 0pt;
     padding-bottom: 10pt;
@@ -22,9 +22,9 @@ body {
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: #6172ca;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: #000000; }
 
 .top-level-menu
 {
@@ -39,9 +39,9 @@ body {
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    background: #6172ca;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: #000000; }
 
 .top-level-menu li:hover > ul
 {
@@ -70,7 +70,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6172ca;
+  background-color: #c8e1fe;
 } 
 
 ul li {
