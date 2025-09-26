@@ -84,3 +84,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  background-color: #6172ca;
+  color: white;
+}
