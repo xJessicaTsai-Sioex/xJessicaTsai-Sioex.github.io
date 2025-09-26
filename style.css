@@ -92,3 +92,11 @@ footer {
   background-color: #6172ca;
   color: white;
 }
+
+#index.html {
+  display: block;
+  background-color: rgb(141, 183, 141);
+  color: #000;
+  padding: 3px;
+  text-align: center;
+}
