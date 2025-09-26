@@ -94,7 +94,7 @@ footer {
 }
 
 #Home {
-  display: block;
+  border-radius: 25px;
   background-color: rgb(187, 219, 206);
   color: #000;
   padding: 10px;
