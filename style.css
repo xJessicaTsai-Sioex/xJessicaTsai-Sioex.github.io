@@ -108,13 +108,14 @@ footer {
 
 .ik {
   text-align: center;
+  border-radius: 25px;
+  background-color: rgb(188, 181, 250);
   font-family:Georgia, 'Times New Roman', Times, serif
-  font-size: large;
 }
 
 .introductie {
   text-align: center;
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: rgb(188, 181, 228);
   color: #000;
   font-family: 'Times New Roman', Times, serif;
