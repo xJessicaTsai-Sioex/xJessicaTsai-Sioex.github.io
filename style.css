@@ -141,4 +141,7 @@ footer {
 
 .computer {
   color: rgb(118, 177, 179);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
 }
