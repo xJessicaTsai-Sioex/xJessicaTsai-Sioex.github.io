@@ -114,7 +114,9 @@ footer {
 
 .introductie {
   text-align: center;
-  border-radius: 25px;
-  background-color: rgb(180, 219, 223);
+  border-radius: 10px;
+  background-color: rgb(201, 231, 238);
   color: #000;
+  margin-left: 25px;
+  margin-right: 25px;
 }
