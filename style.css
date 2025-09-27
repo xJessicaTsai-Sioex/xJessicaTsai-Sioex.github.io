@@ -138,3 +138,7 @@ footer {
 .afbeelding-container {
   overflow: auto;
 }
+
+.computer {
+  color: rgb(118, 177, 179);
+}
