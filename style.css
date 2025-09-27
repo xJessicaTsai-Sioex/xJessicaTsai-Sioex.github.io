@@ -109,8 +109,10 @@ footer {
 .ik {
   text-align: center;
   border-radius: 25px;
-  background-color: rgb(188, 181, 250);
-  font-family:Georgia, 'Times New Roman', Times, serif
+  background-color: rgb(139, 132, 204);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 .introductie {
