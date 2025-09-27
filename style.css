@@ -105,3 +105,12 @@ footer {
   color: #2b267e;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.introductie {
+  text-align: center;
+  border-radius: 25px;
+  background-color: darkblue;
+  color: #000;
+  margin-left: 20%;
+  margin-right: 20%;
+}
