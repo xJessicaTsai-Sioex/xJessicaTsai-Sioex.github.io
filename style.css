@@ -106,10 +106,15 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.ik {
+  text-align: center;
+  font-family: cursive;
+}
+
 .introductie {
   text-align: center;
   border-radius: 25px;
-  background-color: rgb(231, 204, 255);
+  background-color: rgb(195, 220, 237);
   color: #000;
   margin-left: 20%;
   margin-right: 20%;
