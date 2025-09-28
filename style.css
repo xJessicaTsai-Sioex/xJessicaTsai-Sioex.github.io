@@ -161,3 +161,9 @@ footer {
   margin: 0 auto; /*--geen marge boven en onder, maar wel links en rechts waardoor het in het midden komt*/
   width: 200px;
 }
+
+.filmpjes {
+  border-radius: 25px;
+  background-color: rgb(249, 191, 222);
+  text-align: center;
+}
