@@ -129,16 +129,10 @@ footer {
 }
 
 .afbeelding {
- height: 200px;
- width: auto;
-}
-
-.afbeelding-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 20px;
+  float: right;
+  margin-top: -60px;
+  height: 150px;
+  width: 15%;
 }
 
 .computer {
