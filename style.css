@@ -130,7 +130,7 @@ footer {
 
 .plaatjes-container {
   display: flex; /*-- plaatjes staan naast elkaar*/
-  justify-content: space-between; /*--ruimte tussen de plaatjes*/
+  justify-content: space-between; /*--ruimte tussen de plaatjes (1 links en 1 rechts*/
   align-items: center;
   padding: 20px;
 }
@@ -141,15 +141,11 @@ footer {
 }
 
 .afbeelding-boeken {
-  float: left;
-  margin-top: -70px;
   height: 150px;
   width: 15%;
 }
 
 .afbeelding-muziek {
-  float: right;
-  margin-top: -70px;
   height: 150px;
   width: 15%;
 }
