@@ -130,6 +130,7 @@ footer {
 
 .afbeelding-rechts {
   float: right;
+  vertical-align: top;
   margin-left: 20px;
   height: 150px;
   width: 15%;
