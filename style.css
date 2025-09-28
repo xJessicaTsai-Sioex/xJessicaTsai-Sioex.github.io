@@ -171,3 +171,15 @@ footer {
   margin-bottom: 25%;
   padding: 20px;
 }
+
+.ascii-tabel-uitleg {
+  text-align: left;
+  border-radius: 25px;
+  background-color: rgb(157, 151, 188);
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+}
