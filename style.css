@@ -175,11 +175,11 @@ footer {
 .ascii-tabel-uitleg {
   text-align: left;
   border-radius: 25px;
-  background-color: rgb(157, 151, 188);
+  background-color: rgb(150, 162, 218);
   color: #000;
   font-family: 'Times New Roman', Times, serif;
   font-size: medium;
   margin-left: 0%;
-  margin-right: 50%;
+  margin-right: 60%;
   padding: 20px;
 }
