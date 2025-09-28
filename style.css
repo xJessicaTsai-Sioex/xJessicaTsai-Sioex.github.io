@@ -141,13 +141,13 @@ footer {
 }
 
 .afbeelding-boeken {
-  height: 150px;
-  width: 15%;
+  height: 200px;
+  width: 20%;
 }
 
 .afbeelding-muziek {
-  height: 150px;
-  width: 15%;
+  height: 200px;
+  width: 20%;
 }
 
 .computer {
@@ -164,7 +164,7 @@ footer {
 
 .filmpjes {
   border-radius: 25px;
-  background-color: rgb(246, 206, 227);
+  background-color: rgb(247, 189, 224);
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
