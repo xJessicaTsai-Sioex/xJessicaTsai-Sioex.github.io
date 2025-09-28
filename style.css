@@ -128,6 +128,18 @@ footer {
   padding: 20px;
 }
 
+.plaatjes-container {
+  display: flex; /*-- plaatjes staan naast elkaar*/
+  justify-content: space-between; /*--ruimte tussen de plaatjes*/
+  align-items: center;
+  padding: 20px;
+}
+
+.plaatjes-container img {
+  max-width: 200px;
+  height: auto;
+}
+
 .afbeelding-boeken {
   float: left;
   margin-top: -70px;
