@@ -128,17 +128,15 @@ footer {
   padding: 20px;
 }
 
-.afbeelding-rechts {
-  float: right;
-  position: relative;
-  top: -50px;
-  margin-left: 20px;
-  height: 150px;
-  width: 15%;
+.afbeelding {
+ height: 200px;
 }
 
 .afbeelding-container {
-  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .computer {
