@@ -164,6 +164,10 @@ footer {
 
 .filmpjes {
   border-radius: 25px;
-  background-color: rgb(249, 191, 222);
+  background-color: rgb(246, 206, 227);
   text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 25%;
+  padding: 20px;
 }
