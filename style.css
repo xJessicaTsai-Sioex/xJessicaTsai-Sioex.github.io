@@ -128,9 +128,16 @@ footer {
   padding: 20px;
 }
 
-.afbeelding {
+.afbeelding-boeken {
+  float: left;
+  margin-top: -55px;
+  height: 150px;
+  width: 25%;
+}
+
+.afbeelding-muziek {
   float: right;
-  margin-top: -60px;
+  margin-top: -55px;
   height: 150px;
   width: 15%;
 }
