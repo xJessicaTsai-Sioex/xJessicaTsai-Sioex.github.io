@@ -125,7 +125,7 @@ footer {
   font-size: medium;
   margin-left: 25%;
   margin-right: 25%;
-  margin-top: 20px;
+  margin-bottom: 20%;
   padding: 20px;
 }
 
@@ -169,7 +169,6 @@ footer {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
-  margin-bottom: 10%;
   padding: 20px;
 }
 
@@ -182,6 +181,7 @@ footer {
   font-size: medium;
   margin-left: 5%;
   margin-right: 60%;
+  margin-bottom: 10%;
   padding: 20px;
 }
 
