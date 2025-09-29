@@ -190,8 +190,9 @@ footer {
 
 .plaatje-rechts {
   float: right;
-  width:  10px;
-  height: 1%;
+  margin-left: 15px;
+  width:  100px;
+  height: 100px;
 }
 
 .kleurmodellen-pagina {
