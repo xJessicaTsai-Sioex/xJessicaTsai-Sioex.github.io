@@ -220,5 +220,6 @@ footer {
   border-radius: 25px;
   font-weight: bold; /* Maakt de tekst vetgedrukt */
   text-align: center;
-  margin: 0 auto;
+  margin-left: 25%;
+  margin-right: 25%;
 }
