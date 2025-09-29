@@ -209,6 +209,11 @@ footer {
   margin-left: 15px;
 }
 
+.plaatje-links {
+  float: left;
+  margin-right: 15px;
+}
+
 .kleurmodellen-pagina {
   background-image: url(/plaatjes/kleurmodel-achtergrond.jpg);
   background-repeat: no-repeat;
