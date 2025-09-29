@@ -156,7 +156,7 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.afbeelding-computer {
+.afbeelding-midden {
   display: block; /*zorgt ervoor dat het plaatje een blok wordt, waardoor het makkelijker is om het naar het midden te brengen*/
   margin: 0 auto; /*geen marge boven en onder, maar wel links en rechts waardoor het in het midden komt*/
   width: 200px;
