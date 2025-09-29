@@ -191,3 +191,7 @@ footer {
 .plaatje-rechts {
   float: right;
 }
+
+.kleurmodellen-pagina {
+  background-image: url(/plaatjes/kleurmodellen1.jpg);
+}
