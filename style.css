@@ -210,3 +210,14 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(247, 189, 224);
+  color: #000;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold; /* Maakt de tekst vetgedrukt */
+  text-align: center;
+}
