@@ -135,7 +135,7 @@ footer {
   padding: 20px;
 }
 
-.plaatjes-container img, .binairspel {
+.plaatjes-container img {
   max-width: 300px;
   height: auto;
 }
@@ -195,4 +195,12 @@ footer {
 
 .kleurmodellen-pagina {
   background-image: url(/plaatjes/kleurmodel.jpg);
+}
+
+.binairspel {
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
