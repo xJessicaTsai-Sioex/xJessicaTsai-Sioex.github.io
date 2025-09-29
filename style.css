@@ -186,6 +186,9 @@ footer {
 
 .binairstelsel-pagina {
   background-image: url(/plaatjes/binairstelsel-achtergrond.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .plaatje-rechts {
@@ -195,6 +198,9 @@ footer {
 
 .kleurmodellen-pagina {
   background-image: url(/plaatjes/kleurmodel.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .binairspel {
