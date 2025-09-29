@@ -172,7 +172,7 @@ footer {
 }
 
 .tekst-links {
-  text-align: left;
+  text-align: center;
   border-radius: 25px;
   background-color: rgb(150, 162, 218);
   color: #000;
@@ -180,6 +180,19 @@ footer {
   font-size: medium;
   margin-left: 5%;
   margin-right: 60%;
+  margin-bottom: 5%;
+  padding: 20px;
+}
+
+.tekst-rechts {
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(225, 241, 255);
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin-left: 60%;
+  margin-right: 5%;
   margin-bottom: 5%;
   padding: 20px;
 }
