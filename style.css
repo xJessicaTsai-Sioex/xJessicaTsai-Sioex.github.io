@@ -135,7 +135,7 @@ footer {
   padding: 20px;
 }
 
-.plaatjes-container img {
+.plaatjes-container img, .binairspel {
   max-width: 300px;
   height: auto;
 }
