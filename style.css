@@ -116,7 +116,7 @@ footer {
   padding: 10px;
 }
 
-.tekst {
+.tekst-midden {
   text-align: center;
   border-radius: 25px;
   background-color: rgb(188, 181, 228);
@@ -172,7 +172,7 @@ footer {
   padding: 20px;
 }
 
-.ascii-tabel-uitleg {
+.tekst-links {
   text-align: left;
   border-radius: 25px;
   background-color: rgb(150, 162, 218);
