@@ -190,10 +190,10 @@ footer {
 
 .plaatje-rechts {
   float: right;
-  width: 200px;
-  height: 20%;
+  width:  100px;
+  height: 10%;
 }
 
 .kleurmodellen-pagina {
-  background-image: url(/plaatjes/kleurmodellen1.jpg);
+  background-image: url(/plaatjes/kleurmodel.jpg);
 }
