@@ -187,3 +187,7 @@ footer {
 .binairstelsel-pagina {
   background-image: url(/plaatjes/binairstelsel-achtergrond.jpg);
 }
+
+.plaatje-rechts {
+  float: right;
+}
