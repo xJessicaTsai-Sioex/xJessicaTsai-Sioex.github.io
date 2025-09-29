@@ -19,7 +19,7 @@ ul li {
 }
 
 ul li a {
-     display: block;
+  display: block;
   color: white;
   text-align: center;
   padding: 20px 16px;
@@ -40,7 +40,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: none;
 }
 
 li a, .dropbtn {
