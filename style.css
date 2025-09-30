@@ -14,7 +14,7 @@ ul { /* Wat hieronder staat (de opmaak), komt bij het menu */
   background-color: #6172ca; 
 } 
 
-ul li { /*Dit is een list item (element van de lijst) in een lijst*/
+ul li { /*Dit is de opmaak van een list item (element van de lijst) in een lijst*/
     float: left; /* Dit zorgt ervoor dat alle items van wat er in de lijst staat naast elkaar worden gezet*/
 }
 
@@ -108,12 +108,12 @@ footer { /*Hieronder komt de opmaak voor mijn footer*/
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.onderwerp {
+.onderwerp { /* Hier komt de opmaak van wat in deze klasse hoort*/
   text-align: center;
   border-radius: 25px;
   background-color: rgb(139, 132, 204);
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  margin-left: 35%;
+  font-family:Georgia, 'Times New Roman', Times, serif; /* Dit geeft mijn stuk tekst onder dit stukje de gekozen font*/
+  margin-left: 35%; /*Dit zorgt voor ruimte buiten het element aan de linkerkant*/
   margin-right: 35%;
   padding: 10px;
 }
@@ -124,27 +124,27 @@ footer { /*Hieronder komt de opmaak voor mijn footer*/
   background-color: rgb(188, 181, 228);
   color: #000;
   font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size: medium; /* Hiermee kan je de grootte van mijn tekst veranderen */
   margin-left: 25%;
   margin-right: 25%;
   padding: 20px;
 }
 
 .plaatjes-container {
-  display: flex; /*-- plaatjes staan naast elkaar*/
-  justify-content: space-between; /*--ruimte tussen de plaatjes (1 links en 1 rechts*/
-  align-items: center;
+  display: flex; /*Plaatjes staan naast elkaar*/
+  justify-content: space-between; /*Ruimte tussen de plaatjes (1 links en 1 rechts)*/
+  align-items: center; /* Dit zorgt ervoor dat de plaatjes verticaal worden uitgelijnd */
   padding: 20px;
 }
 
 .plaatjes-container img {
-  max-width: 300px;
-  height: auto;
+  max-width: 300px; /*Dit is de maximale breedte*/
+  height: auto; /* Hier wordt de hoogte automatisch aangepast*/
 }
 
 .afbeelding-boeken {
-  height: 200px;
-  width: 20%;
+  height: 200px; /* Dit geeft de hoogte van het plaatje aan*/
+  width: 20%; /*Dit geeft de breedte van het plaatje aan*/
 }
 
 .afbeelding-muziek {
@@ -188,9 +188,9 @@ footer { /*Hieronder komt de opmaak voor mijn footer*/
 
 .binairstelsel-pagina {
   background-image: url(/plaatjes/binairstelsel-achtergrond.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-repeat: no-repeat; /* Zorgt ervoor dat mijn plaatje niet herhaalt wordt, komt maar 1x voor*/
+  background-attachment: fixed; /* Dit zorgt ervoor dat mijn plaatje blijft staan tijdens het scrollen*/
+  background-size: cover; /*Dit zorgt ervoor dat mijn plaatje het hele scherm opvult*/
 }
 
 .plaatje-rechts {
