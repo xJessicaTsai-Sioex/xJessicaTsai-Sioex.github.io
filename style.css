@@ -97,8 +97,8 @@ footer { /*Hieronder komt de opmaak voor mijn footer*/
   background-color: rgb(188, 181, 228);
   color: #000;
   padding: 10px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 20%; /* Hierdoor heb je nu 20% ruimte links */
+  margin-right: 20%; /* Hierdoor heb je nu 20% ruimte rechts */
   text-align: center;
 }
 
