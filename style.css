@@ -1,33 +1,33 @@
-body {
-    background-color: #c8e1fe;
-    color:black;
-    margin: 0pt;
-    padding-bottom: 10pt;
-    width: 100%;
+body { /* Wat hieronder komt te staan, komt op de website (dus de opmaak) */
+    background-color: #c8e1fe; /* Dit zorgt voor de achtergrondkleur van mijn website */
+    color:black; /* Dit zorgt voor de tekstkleur */
+    margin: 0pt; /* Dit zorgt voor de ruimte buiten het element, dus hier is er geen ruimte buiten het element. */
+    padding-bottom: 10pt; /* Dit zorgt ervoor dat de er ruimte is aan de onderkant van mijn tekst en het volgende element (de rand) */
+    width: 100%; /* Dit bepaald hoe breed mijn pagina is */
 }
 
-ul {
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #6172ca;
+ul { /* Wat hieronder staat (de opmaak), komt bij het menu */
+  list-style-type: none;  /* Dit zorgt ervoor dat mijn lijst niet wordt genummerd of dat er bolletjes komen */
+  margin: 0; 
+  padding: 0; /*Dit zorgt ervoor dat er ruimte tussen de tekst (inhoud) en rand (hier dus de achtergrondkleur)*/
+  overflow: hidden; /*Dit zorgt ervoor dat alles wat buiten dit element valt wordt verbergt*/
+  background-color: #6172ca; 
 } 
 
-ul li {
-    float: left;
+ul li { /*Dit is een list item (element van de lijst) in een lijst*/
+    float: left; /* Dit zorgt ervoor dat alle items van wat er in de lijst staat naast elkaar worden gezet*/
 }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
+ul li a { /*Dit is een link in een list item (element van de lijst) in een lijst*/
+  display: block; /* Dit zorgt ervoor dat dit element en de inhoud ervan in een blok komt*/
+  color: white; 
+  text-align: center; /*Dit zorgt ervoor dat de tekst in het midden komt*/
+  padding: 20px 16px; /*De eerste padding, 20px, is voor boven en onder en de tweede, 16px, is voor links en rechts*/
+  text-decoration: none; /*Dit zorgt er bijvoorbeeld voor dat de tekst niet onderstreept wordt*/
 
 }
 
-ul li a:hover {
+ul li a:hover { /* Dit zorgt ervoor dat de achtergrond kleur van de link verandert als je met je muis erover heen gaat, dus hier wordt het dan zwart*/
   background-color: #000000;
 }
 
@@ -43,8 +43,8 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
-  display: inline-block;
+li a, .dropbtn { /*Wat hier onder staat (opmaak), komt bij de drowpdown*/
+  display: inline-block; /* Dit zorgt ervoor dat de dropdown-knop (Compressies) op dezelfde regels blijft als de andere list items (Home, Binair stelsel etc)*/
   color: white;
   text-align: center;
   padding: 20px 16px;
