@@ -44,31 +44,31 @@ li {
 }
 
 li a, .dropbtn { /*Wat hier onder staat (opmaak), komt bij de drowpdown*/
-  display: inline-block; /* Dit zorgt ervoor dat de dropdown-knop (Compressies) op dezelfde regels blijft als de andere list items (Home, Binair stelsel etc)*/
+  display: inline-block; 
   color: white;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown:hover .dropbtn { /*Dit zorgt ervoor dat ook bij de links in de dropdown-menu de achtergrondkleur verandert als je met je muis erover heengaat, in dit geval ook zwart*/
   background-color: rgb(0, 0, 0);
 }
 
 li.dropdown {
-  display: inline-block;
+  display: inline-block; /* Dit zorgt ervoor dat de dropdown-knop (Compressies) op dezelfde regels blijft als de andere list items (Home, Binair stelsel etc)*/
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
+.dropdown-content { /* Hier komt de opmaak van de inhoud van mijn dropdown-menu*/
+  display: none; /* Dit verbergt de dropdown-content standaard*/
+  position: absolute; /*Dit zorgt ervoor dat dit element (de dropdown) uit de normale flow wordt gehaald*/
   background-color: #6172ca;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  min-width: 160px; /* De minimale breedte is hier 160 pixels*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Dit zorgt voor schaduw onder de dropdown*/
+  z-index: 1; /* Dit zorgt ervoor dat de dropdown boven de andere elementen komt*/
 }
 
-.dropdown-content a {
+.dropdown-content a { /*Hier komt de opmaak van de links die in de inhoud van mijn dropdown-menu staan*/
   color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
@@ -76,13 +76,15 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #000000;}
+.dropdown-content a:hover { /* Dit zorgt dus weer ervoor dat de achtergrondkleur verandert naar zwart als je met je muis erop gaat, maar dit is dan bij Lossy&Lossless en Bitmap&Vector*/
+  background-color: #000000;
+}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content { /*Dit zorgt ervoor dat de dropwdown zelf en als je gaat hoveren, dat het nog een block blijft*/
   display: block;
 }
 
-footer {
+footer { /*Hieronder komt de opmaak voor mijn footer*/
   display: block;
   text-align: center;
   padding: 3px;
@@ -90,8 +92,8 @@ footer {
   color: white;
 }
 
-#title {
-  border-radius: 25px;
+#title { /* Hier komt de opmaak van het stukje title (dus andere opmaak dan andere elementen)*/
+  border-radius: 25px; /* Dit zorgt ervoor dat de randen van mijn block wat ronder worden, ik heb geen display: block;, omdat je bij elementen als <h1>, <h2>. <div> en <p> al een standaard block hebt*/
   background-color: rgb(188, 181, 228);
   color: #000;
   padding: 10px;
